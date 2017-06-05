@@ -1,0 +1,11 @@
+{
+  "id" : 123456,
+  "text" : "This is a tweet message for testing purposes",
+  "created_at" : "Fri May 26 10:00:00 -0800 2017",
+  "user" : {
+    "id" : 7891011,
+    "name" : "This should be the name",
+    "screen_name" : "screenName",
+    "created_at" : "Fri May 26 09:00:00 -0800 2017"
+  }
+}
