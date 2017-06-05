@@ -2,6 +2,7 @@
 
 This project is a [Maven project](http://maven.apache.org/) that contains functionality that will provide you with a `com.google.api.client.http.HttpRequestFactory` that is authorised to execute calls to the Twitter API in the scope of a specific user.
 You will need to provide your _Consumer Key_ and _Consumer Secret_ and follow through the OAuth process (get temporary token, retrieve access URL, authorise application, enter PIN for authenticated token).
+
 With the resulting factory we then are able to generate and execute all necessary requests to perform the following tasks:
 
 + Connect to the [Twitter Streaming API](https://dev.twitter.com/streaming/overview)
@@ -10,8 +11,8 @@ With the resulting factory we then are able to generate and execute all necessar
 		+ Consumer Secret: `R3DnDX4KAj0uveG68VxhSu0lYLnmkcukWMTMtxinPJM9TYe0me`
 	* The app name will be `streaming-oauth-test`
 	* You will need to login with Twitter
-+ Filter messages given as execution arguments more info in the [How to build and run](#How to build and run) section.
-+ Retrieve the incoming messages for 30 seconds or up to 100 messages, whichever comes first. We use this default values, but you are free to change in [configuration.properties](/src/main/java/resources/configuration.properties) file.
++ Filter messages given as execution arguments more info in the [How to build and run](#how-to-build-and-run) section.
++ Retrieve the incoming messages for 30 seconds or up to 100 messages, whichever comes first. We use this default values, but you are free to change in [configuration.properties](/src/main/resources/configuration.properties) file.
 + For each message, the following information is stored:
 	* The message ID
 	* The creation date of the message as epoch value
